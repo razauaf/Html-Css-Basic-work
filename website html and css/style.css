@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Fira Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'Raleway', sans-serif;
+}
+header{
+	height: 100vh;
+	width: 100%;
+	background-image: url('image/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+.mainheader{
+	height: 100px;
+	width: 100%;
+	align-items: center;
+	display: flex;
+	justify-content:space-between;
+}
+.mainheader .logo img{
+	height:70px ;
+	width:250px ;
+	padding-left: 60px;
+}
+.mainheader nav{
+	width: 450px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.mainheader a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+}
+.menubtn{
+	margin-right: 60px;
+}
+.mainheader button{
+	padding: 10px 45px;
+	text-align: center;
+	font-size: 15px;
+	border: none;
+	color: #fff;
+	background: blue;
+	border-radius: 15px;
+}
+main{
+
+	width: 100%;
+	align-items: center;
+	display: flex;
+	justify-content:space-between;
+}
+main .right-sec{
+	margin-top: 200px;
+	padding-right: 50px;
+}
+main .left-sec{
+	margin-top: 200px;
+	padding-left: 100px;
+}
+.left-sec h2{
+	font-size: 25px;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #242424;
+	margin-top: 60px;
+}
+.left-sec h1{
+	font-size: 60px;
+	text-transform: capitalize;
+	font-weight: 700px;
+	margin: 12px 0;
+
+}
+.left-sec p{
+	margin-bottom: 25px;
+}
+.left-sec button{
+	padding: 15px 45px;
+	text-align: center;
+	font-size: 15px;
+	border: none;
+	color: #fff;
+	background: blue;
+	border-radius: 15px;
+
+}
